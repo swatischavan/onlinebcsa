@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --darkpink :#DD127B;
+   --darkred :#DC3545;
+   --skyblue :#0093DD;
+}
+.darkpink{
+   background-color: var(--darkpink);
+}
+.skyblue{
+   color:var(--skyblue)
+}
+.darkred{
+   color: var(--darkred);
+}
+.text-darkpink{
+   color:var(--darkpink)
+}
+
+/* Tophead Section Start */
+
+
+/* Tophead Section End */
+/* Header Section Start */
+.navbar-brand img{
+   transition: 0.2s linear;
+}
+.navbar-brand img:hover{
+   transform: scale(1.05);
+   transition: 0.2s linear;
+
+}
+/* Header Section end */
+/* Hero Section Start */
+.course-cpation{
+   position: absolute;
+   right: 15%;
+   bottom: 60%;
+   
+}
+.carousel-item{
+   position: relative;
+   display: none;
+   float: left;
+   margin-right: -100%;
+}
+.carousel-item .course-cpation{
+   top: 90% !important;
+   left: 9% !important;
+   right: 9% !important;
+   text-align: left;
+}
+.course-cpation  h5{
+   margin-top: 0%;
+   margin-bottom: 0.5px;
+   display: block;
+   font-weight: 600;
+}
+
+/* /Hero Section End */
